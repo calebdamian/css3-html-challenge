@@ -1,0 +1,520 @@
+body {
+  margin: 0px;
+}
+/**
+flex ------------------------------
+*/
+
+.flex-container-footer {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #90d4c6;
+}
+
+.flex-container-footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container-4-col {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container-4-col img {
+  width: 25%;
+}
+.flex-container-3-col {
+  display: flex;
+  padding: 10%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+.container-padding {
+  padding: 10%;
+}
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-flex-container {
+  padding: 5%;
+  text-align: left;
+}
+.img-flex-container {
+  min-width: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.blue {
+  background-color: #49bcf1;
+}
+
+.first {
+  background-color: #49bcf1;
+  margin: 0px;
+}
+/**
+images with text inside
+*/
+
+.bg1 {
+  background-image: url("./resources/cereza.png");
+  background-position: center top;
+  background-size: 100% auto;
+  min-width: 50%;
+}
+.bg2 {
+  background-image: url("./resources/mandarina.png");
+  background-position: center top;
+  background-size: 100% auto;
+  min-width: 50%;
+}
+
+/**
+text---------------------**/
+.fraunces-h1 {
+  font-family: "Fraunces";
+  letter-spacing: 5px;
+  font-size: 75px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.fraunces {
+  font-family: "Fraunces";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.fraunces-p {
+  font-family: "Fraunces";
+  font-size: 15px;
+  color: gray;
+  line-height: 30px;
+}
+
+.fraunces-h2 {
+  font-family: "Fraunces";
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.fraunces-p-blue {
+  font-family: "Fraunces";
+  font-size: 16px;
+  color: #19536c;
+  line-height: 30px;
+  font-weight: normal;
+}
+.fraunces-p-green {
+  font-family: "Fraunces";
+  font-size: 16px;
+  color: #24554a;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.texts {
+  padding: 5%;
+  text-align: center;
+}
+.fraunces-h3-blue {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: bold;
+  color: #052c3b;
+}
+.fraunces-h3-gray {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: bold;
+  color: #a7aaad;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.fraunces-h3-green {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: bold;
+  color: #24554a;
+}
+.fraunces-h4-dark-blue {
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-weight: bold;
+  color: #24303e;
+}
+.fraunces-a {
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration-color: rgb(252, 252, 155);
+  color: black;
+  text-decoration-thickness: 7px;
+}
+.fraunces-a-beige {
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration-color: rgba(243, 243, 212, 0.911);
+  color: black;
+  text-decoration-thickness: 7px;
+}
+.barlow {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.barlow-gray {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: lighter;
+  color: gray;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.fraunces-a:hover {
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration-color: rgb(255, 251, 2);
+  color: black;
+  text-decoration-thickness: 7px;
+}
+.fraunces-a-beige:hover {
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration-color: rgba(255, 68, 68, 0.911);
+  color: black;
+  text-decoration-thickness: 7px;
+}
+/**
+FOOTER -------------------------
+**/
+.footer-logo {
+  margin: 5%;
+}
+.footer-social-media-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin: 5%;
+}
+.fb-logo {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: transparent url("resources/fb-green.png") center top no-repeat;
+}
+
+.ig-logo {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: transparent url("resources/instagram-green.png") center top
+    no-repeat;
+}
+.twitter-logo {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: transparent url("resources/twitter-green.svg") center top
+    no-repeat;
+}
+.pinterest-logo {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: transparent url("resources/pinterest-green.svg") center top
+    no-repeat;
+}
+.footer-links-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin: 5%;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: #458d7e;
+  font-family: "Barlow";
+  font-size: 1rem;
+}
+
+.footer-a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow";
+  font-size: 1rem;
+}
+/**
+ENDS TEXT---------------------------------------**/
+/**
+images -----------------------------**/
+.responsive-img {
+  max-width: 100%;
+}
+
+.egg-img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.glass-img {
+  max-width: 100%;
+  min-height: 600px;
+}
+
+/**
+4 col images--------------**/
+.bg-milk {
+  background-image: url("resources/milk.jpg");
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.bg-orange {
+  background-image: url("resources/orange.jpg");
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.bg-icecream {
+  background-image: url("resources/ice-cream.jpg");
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.bg-cubes {
+  background-image: url("resources/cubes.svg");
+  background-position: center top;
+  background-size: 100% auto;
+}
+/**
+NAV BAR ------------------**/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #49bcf1;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: whitesmoke;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+/*.nav-links li a {
+  color: white;
+  text-decoration: none;
+}*/
+.nav-bar-link {
+  color: white;
+  text-decoration: none;
+}
+.menu .nav-bar-link .button {
+  color: black;
+}
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 2%;
+  font-size: 18px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.menu li:hover {
+  background-color: #73cdf7da;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  margin: 0px 20px;
+}
+.menu .button:hover {
+  background-color: #73cdf7da;
+  color: white;
+}
+
+.menu .li-button:hover {
+  background-color: rgba(red, green, blue, 0);
+}
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: white;
+  padding: 1em 0;
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #27afee;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type="checkbox"] {
+  display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 30px;
+    margin: 1px 15%;
+    width: 75%;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #49bcf1;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #49bcf1;
+  }
+  .nav-bar-link {
+    color: gray;
+    text-decoration: none;
+  }
+  .button {
+    margin-top: 12px;
+    background-color: yellow;
+    color: black;
+  }
+
+  .flex-container-1 {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .egg-img {
+    height: 25%;
+  }
+  .flex-container-2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .flex-container-3-col {
+    flex-direction: column;
+    padding: 1%;
+  }
+  .flex-container-4-col {
+    flex-wrap: wrap;
+  }
+  .flex-container-4-col img {
+    width: 50%;
+  }
+}
