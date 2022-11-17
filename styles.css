@@ -23,8 +23,11 @@ flex ------------------------------
   display: flex;
   flex-direction: row;
 }
-.flex-container-4-col img {
+.flex-container-4-col a {
   width: 25%;
+}
+.flex-container-4-col a img {
+  width: 100%;
 }
 .flex-container-3-col {
   display: flex;
@@ -439,7 +442,65 @@ input[type="checkbox"] {
   font-size: 24px;
   user-select: none;
 }
+/*
+LIGHT BOX
+*/
+.light-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
 
+.light-box img {
+  width: 25%;
+  max-height: 50%;
+}
+
+.light-box:target {
+  transform: scale(1);
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 4opx;
+  background: gray;
+  color: #ffffff;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.next {
+  display: block;
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+.welcome > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, blue, alpha);
+}
+
+/*---------*/
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .menu {
@@ -515,7 +576,7 @@ input[type="checkbox"] {
   .flex-container-4-col {
     flex-wrap: wrap;
   }
-  .flex-container-4-col img {
+  .flex-container-4-col a {
     width: 50%;
   }
 
