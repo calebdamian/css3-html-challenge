@@ -292,7 +292,8 @@ images -----------------------------**/
 
 .glass-img {
   max-width: 100%;
-  min-height: 600px;
+  /* min-height: 600px; */
+  min-width: 100%;
 }
 
 /**
@@ -438,8 +439,6 @@ input[type="checkbox"] {
   font-size: 24px;
   user-select: none;
 }
-
-/* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -503,6 +502,12 @@ input[type="checkbox"] {
   .egg-img {
     height: 25%;
   }
+
+  .glass-img {
+    max-width: 100%;
+    /* min-height: 600px; */
+    min-width: 100%;
+  }
   .flex-container-2 {
     flex-wrap: wrap;
     flex-direction: column;
@@ -516,5 +521,9 @@ input[type="checkbox"] {
   }
   .flex-container-4-col img {
     width: 50%;
+  }
+
+  .fraunces-h1 {
+    font-size: 2em;
   }
 }
