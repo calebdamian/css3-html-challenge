@@ -277,6 +277,7 @@ FOOTER -------------------------
   font-family: "Barlow";
   font-size: 1rem;
 }
+
 /**
 ENDS TEXT---------------------------------------**/
 /**
@@ -292,8 +293,7 @@ images -----------------------------**/
 
 .glass-img {
   max-width: 100%;
-  /* min-height: 600px; */
-  min-width: 100%;
+  min-height: 600px;
 }
 
 /**
@@ -439,6 +439,8 @@ input[type="checkbox"] {
   font-size: 24px;
   user-select: none;
 }
+
+/* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -502,12 +504,6 @@ input[type="checkbox"] {
   .egg-img {
     height: 25%;
   }
-
-  .glass-img {
-    max-width: 100%;
-    /* min-height: 600px; */
-    min-width: 100%;
-  }
   .flex-container-2 {
     flex-wrap: wrap;
     flex-direction: column;
@@ -524,6 +520,6 @@ input[type="checkbox"] {
   }
 
   .fraunces-h1 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }
