@@ -500,6 +500,16 @@ LIGHT BOX
   box-shadow: 0 0 6px rgba(0, 0, blue, alpha);
 }
 
+.flex-ul {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-a a {
+  text-decoration: none;
+  color: #458d7e;
+}
+
 /*---------*/
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
